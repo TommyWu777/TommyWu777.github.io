@@ -1,0 +1,126 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.bg canvas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+
+.fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    max-width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .fixed-rwd {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        max-width: max-content;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 40px;
+        transition: all 0.5s ease;
+    }
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 20px;
+    height: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.player-iframe {
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+}
+
+.carousel {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    gap: 100px;
+    padding: 50px 50px;
+    z-index: 1;
+}
+
+.carousel-Item {
+    display: flex;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.carousel-img {
+    width: 370px;
+    height: 370px;
+}
+
+.carousel-img:hover {
+    opacity: 0.5;
+}
+
+.left-button {
+    position: absolute;
+    top: 45%;
+    left: 50px;
+    z-index: 10;
+}
+
+.right-button {
+    position: absolute;
+    top: 45%;
+    right: 50px;
+    z-index: 10;
+}
