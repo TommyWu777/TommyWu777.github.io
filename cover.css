@@ -91,8 +91,8 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    gap: 100px;
-    padding: 50px 50px;
+    gap: 90px;
+    padding: 45px 45px;
     z-index: 1;
 }
 
@@ -103,8 +103,8 @@
 }
 
 .carousel-img {
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    height: 300px;
 }
 
 .carousel-img:hover {
@@ -114,13 +114,13 @@
 .left-button {
     position: absolute;
     top: 45%;
-    left: 50px;
+    left: 25px;
     z-index: 10;
 }
 
 .right-button {
     position: absolute;
     top: 45%;
-    right: 50px;
+    right: 25px;
     z-index: 10;
 }
